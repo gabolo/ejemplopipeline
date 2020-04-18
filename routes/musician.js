@@ -10,7 +10,7 @@ router.get('/health', (req, res) => {
 });
 // funcina
 router.get('/funciona', (req, res) => {
-  res.status('200').send("funciona");
+  res.status('200').send("funciona")
 });
 
 // retrieve all musicians from data store
